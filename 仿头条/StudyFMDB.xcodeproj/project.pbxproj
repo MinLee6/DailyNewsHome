@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B3CE023B38BF03FF56BF55 /* libPods-StudyFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA564374682B264434A0974 /* libPods-StudyFMDB.a */; };
+		EE155A571DEFF0A100F4C995 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE155A561DEFF0A100F4C995 /* UIView+Extension.m */; };
+		EEE51D111DEEABC400555F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D101DEEABC400555F57 /* main.m */; };
+		EEE51D141DEEABC400555F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D131DEEABC400555F57 /* AppDelegate.m */; };
+		EEE51D1C1DEEABC400555F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE51D1B1DEEABC400555F57 /* Assets.xcassets */; };
+		EEE51D1F1DEEABC400555F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE51D1D1DEEABC400555F57 /* LaunchScreen.storyboard */; };
+		EEE51D2A1DEEABC400555F57 /* StudyFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D291DEEABC400555F57 /* StudyFMDBTests.m */; };
+		EEE51D351DEEABC400555F57 /* StudyFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D341DEEABC400555F57 /* StudyFMDBUITests.m */; };
+		EEE51D481DEEBBDA00555F57 /* LMArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D471DEEBBDA00555F57 /* LMArrow.m */; };
+		EEE51D4B1DEEBC0D00555F57 /* LMListBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D4A1DEEBC0D00555F57 /* LMListBar.m */; };
+		EEE51D4F1DEEBF3700555F57 /* LMDeleteBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D4E1DEEBF3700555F57 /* LMDeleteBar.m */; };
+		EEE51D521DEEBFAE00555F57 /* LMDetailsList.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D511DEEBFAE00555F57 /* LMDetailsList.m */; };
+		EEE51D551DEEC03300555F57 /* LMListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D541DEEC03300555F57 /* LMListItem.m */; };
+		EEE51D581DEEC07600555F57 /* LMScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D571DEEC07600555F57 /* LMScroller.m */; };
+		EEE51D5B1DEEC19400555F57 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D5A1DEEC19400555F57 /* MainViewController.m */; };
+		EEE51D611DEEDA1E00555F57 /* LMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE51D601DEEDA1E00555F57 /* LMCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE51D261DEEABC400555F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE51D041DEEABC400555F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE51D0B1DEEABC400555F57;
+			remoteInfo = StudyFMDB;
+		};
+		EEE51D311DEEABC400555F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE51D041DEEABC400555F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE51D0B1DEEABC400555F57;
+			remoteInfo = StudyFMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AA564374682B264434A0974 /* libPods-StudyFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4A4420A73B12569D938390 /* Pods-StudyFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyFMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyFMDB/Pods-StudyFMDB.release.xcconfig"; sourceTree = "<group>"; };
+		906B4A5520D5F09C5A3AAFFC /* Pods-StudyFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyFMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyFMDB/Pods-StudyFMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		EE155A551DEFF0A100F4C995 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EE155A561DEFF0A100F4C995 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EEE51D0C1DEEABC400555F57 /* StudyFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE51D101DEEABC400555F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE51D121DEEABC400555F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE51D131DEEABC400555F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEE51D1B1DEEABC400555F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE51D1E1DEEABC400555F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE51D201DEEABC400555F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE51D251DEEABC400555F57 /* StudyFMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyFMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE51D291DEEABC400555F57 /* StudyFMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyFMDBTests.m; sourceTree = "<group>"; };
+		EEE51D2B1DEEABC400555F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE51D301DEEABC400555F57 /* StudyFMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyFMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE51D341DEEABC400555F57 /* StudyFMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyFMDBUITests.m; sourceTree = "<group>"; };
+		EEE51D361DEEABC400555F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE51D461DEEBBDA00555F57 /* LMArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMArrow.h; sourceTree = "<group>"; };
+		EEE51D471DEEBBDA00555F57 /* LMArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMArrow.m; sourceTree = "<group>"; };
+		EEE51D491DEEBC0D00555F57 /* LMListBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMListBar.h; sourceTree = "<group>"; };
+		EEE51D4A1DEEBC0D00555F57 /* LMListBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMListBar.m; sourceTree = "<group>"; };
+		EEE51D4C1DEEBEBC00555F57 /* LM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LM.pch; sourceTree = "<group>"; };
+		EEE51D4D1DEEBF3700555F57 /* LMDeleteBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDeleteBar.h; sourceTree = "<group>"; };
+		EEE51D4E1DEEBF3700555F57 /* LMDeleteBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDeleteBar.m; sourceTree = "<group>"; };
+		EEE51D501DEEBFAE00555F57 /* LMDetailsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDetailsList.h; sourceTree = "<group>"; };
+		EEE51D511DEEBFAE00555F57 /* LMDetailsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDetailsList.m; sourceTree = "<group>"; };
+		EEE51D531DEEC03300555F57 /* LMListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMListItem.h; sourceTree = "<group>"; };
+		EEE51D541DEEC03300555F57 /* LMListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMListItem.m; sourceTree = "<group>"; };
+		EEE51D561DEEC07600555F57 /* LMScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMScroller.h; sourceTree = "<group>"; };
+		EEE51D571DEEC07600555F57 /* LMScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMScroller.m; sourceTree = "<group>"; };
+		EEE51D591DEEC19400555F57 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EEE51D5A1DEEC19400555F57 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EEE51D5F1DEEDA1E00555F57 /* LMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCollectionViewCell.h; sourceTree = "<group>"; };
+		EEE51D601DEEDA1E00555F57 /* LMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE51D091DEEABC400555F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B3CE023B38BF03FF56BF55 /* libPods-StudyFMDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D221DEEABC400555F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D2D1DEEABC400555F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306D226E39A99B9B7294BBC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA564374682B264434A0974 /* libPods-StudyFMDB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE155A541DEFEFFB00F4C995 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EE155A551DEFF0A100F4C995 /* UIView+Extension.h */,
+				EE155A561DEFF0A100F4C995 /* UIView+Extension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EEE51D031DEEABC400555F57 = {
+			isa = PBXGroup;
+			children = (
+				EEE51D0E1DEEABC400555F57 /* StudyFMDB */,
+				EEE51D281DEEABC400555F57 /* StudyFMDBTests */,
+				EEE51D331DEEABC400555F57 /* StudyFMDBUITests */,
+				EEE51D0D1DEEABC400555F57 /* Products */,
+				F93D40EFD99E7A6A64CEEBB1 /* Pods */,
+				306D226E39A99B9B7294BBC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE51D0D1DEEABC400555F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D0C1DEEABC400555F57 /* StudyFMDB.app */,
+				EEE51D251DEEABC400555F57 /* StudyFMDBTests.xctest */,
+				EEE51D301DEEABC400555F57 /* StudyFMDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE51D0E1DEEABC400555F57 /* StudyFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				EE155A541DEFEFFB00F4C995 /* Tool */,
+				EEE51D431DEEBAEB00555F57 /* Controller */,
+				EEE51D441DEEBAF100555F57 /* Model */,
+				EEE51D421DEEBAE300555F57 /* Views */,
+				EEE51D121DEEABC400555F57 /* AppDelegate.h */,
+				EEE51D131DEEABC400555F57 /* AppDelegate.m */,
+				EEE51D1B1DEEABC400555F57 /* Assets.xcassets */,
+				EEE51D1D1DEEABC400555F57 /* LaunchScreen.storyboard */,
+				EEE51D201DEEABC400555F57 /* Info.plist */,
+				EEE51D0F1DEEABC400555F57 /* Supporting Files */,
+				EEE51D4C1DEEBEBC00555F57 /* LM.pch */,
+			);
+			path = StudyFMDB;
+			sourceTree = "<group>";
+		};
+		EEE51D0F1DEEABC400555F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D101DEEABC400555F57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE51D281DEEABC400555F57 /* StudyFMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D291DEEABC400555F57 /* StudyFMDBTests.m */,
+				EEE51D2B1DEEABC400555F57 /* Info.plist */,
+			);
+			path = StudyFMDBTests;
+			sourceTree = "<group>";
+		};
+		EEE51D331DEEABC400555F57 /* StudyFMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D341DEEABC400555F57 /* StudyFMDBUITests.m */,
+				EEE51D361DEEABC400555F57 /* Info.plist */,
+			);
+			path = StudyFMDBUITests;
+			sourceTree = "<group>";
+		};
+		EEE51D421DEEBAE300555F57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D451DEEBBB400555F57 /* Header */,
+				EEE51D5F1DEEDA1E00555F57 /* LMCollectionViewCell.h */,
+				EEE51D601DEEDA1E00555F57 /* LMCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEE51D431DEEBAEB00555F57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D591DEEC19400555F57 /* MainViewController.h */,
+				EEE51D5A1DEEC19400555F57 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEE51D441DEEBAF100555F57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEE51D451DEEBBB400555F57 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EEE51D461DEEBBDA00555F57 /* LMArrow.h */,
+				EEE51D471DEEBBDA00555F57 /* LMArrow.m */,
+				EEE51D491DEEBC0D00555F57 /* LMListBar.h */,
+				EEE51D4A1DEEBC0D00555F57 /* LMListBar.m */,
+				EEE51D4D1DEEBF3700555F57 /* LMDeleteBar.h */,
+				EEE51D4E1DEEBF3700555F57 /* LMDeleteBar.m */,
+				EEE51D501DEEBFAE00555F57 /* LMDetailsList.h */,
+				EEE51D511DEEBFAE00555F57 /* LMDetailsList.m */,
+				EEE51D531DEEC03300555F57 /* LMListItem.h */,
+				EEE51D541DEEC03300555F57 /* LMListItem.m */,
+				EEE51D561DEEC07600555F57 /* LMScroller.h */,
+				EEE51D571DEEC07600555F57 /* LMScroller.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F93D40EFD99E7A6A64CEEBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				906B4A5520D5F09C5A3AAFFC /* Pods-StudyFMDB.debug.xcconfig */,
+				8F4A4420A73B12569D938390 /* Pods-StudyFMDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE51D0B1DEEABC400555F57 /* StudyFMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE51D391DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDB" */;
+			buildPhases = (
+				63A00356A79B0400BEA8CBA9 /* [CP] Check Pods Manifest.lock */,
+				EEE51D081DEEABC400555F57 /* Sources */,
+				EEE51D091DEEABC400555F57 /* Frameworks */,
+				EEE51D0A1DEEABC400555F57 /* Resources */,
+				6F34484390E7901B7E8981EF /* [CP] Embed Pods Frameworks */,
+				8C01F81C8AA8CD5F138C8565 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyFMDB;
+			productName = StudyFMDB;
+			productReference = EEE51D0C1DEEABC400555F57 /* StudyFMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE51D241DEEABC400555F57 /* StudyFMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE51D3C1DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDBTests" */;
+			buildPhases = (
+				EEE51D211DEEABC400555F57 /* Sources */,
+				EEE51D221DEEABC400555F57 /* Frameworks */,
+				EEE51D231DEEABC400555F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE51D271DEEABC400555F57 /* PBXTargetDependency */,
+			);
+			name = StudyFMDBTests;
+			productName = StudyFMDBTests;
+			productReference = EEE51D251DEEABC400555F57 /* StudyFMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE51D2F1DEEABC400555F57 /* StudyFMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE51D3F1DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDBUITests" */;
+			buildPhases = (
+				EEE51D2C1DEEABC400555F57 /* Sources */,
+				EEE51D2D1DEEABC400555F57 /* Frameworks */,
+				EEE51D2E1DEEABC400555F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE51D321DEEABC400555F57 /* PBXTargetDependency */,
+			);
+			name = StudyFMDBUITests;
+			productName = StudyFMDBUITests;
+			productReference = EEE51D301DEEABC400555F57 /* StudyFMDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE51D041DEEABC400555F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "君安信（北京）科技有限公司";
+				TargetAttributes = {
+					EEE51D0B1DEEABC400555F57 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EEE51D241DEEABC400555F57 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE51D0B1DEEABC400555F57;
+					};
+					EEE51D2F1DEEABC400555F57 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE51D0B1DEEABC400555F57;
+					};
+				};
+			};
+			buildConfigurationList = EEE51D071DEEABC400555F57 /* Build configuration list for PBXProject "StudyFMDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE51D031DEEABC400555F57;
+			productRefGroup = EEE51D0D1DEEABC400555F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE51D0B1DEEABC400555F57 /* StudyFMDB */,
+				EEE51D241DEEABC400555F57 /* StudyFMDBTests */,
+				EEE51D2F1DEEABC400555F57 /* StudyFMDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE51D0A1DEEABC400555F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE51D1F1DEEABC400555F57 /* LaunchScreen.storyboard in Resources */,
+				EEE51D1C1DEEABC400555F57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D231DEEABC400555F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D2E1DEEABC400555F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63A00356A79B0400BEA8CBA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F34484390E7901B7E8981EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyFMDB/Pods-StudyFMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C01F81C8AA8CD5F138C8565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyFMDB/Pods-StudyFMDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE51D081DEEABC400555F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE51D5B1DEEC19400555F57 /* MainViewController.m in Sources */,
+				EEE51D481DEEBBDA00555F57 /* LMArrow.m in Sources */,
+				EE155A571DEFF0A100F4C995 /* UIView+Extension.m in Sources */,
+				EEE51D4F1DEEBF3700555F57 /* LMDeleteBar.m in Sources */,
+				EEE51D4B1DEEBC0D00555F57 /* LMListBar.m in Sources */,
+				EEE51D551DEEC03300555F57 /* LMListItem.m in Sources */,
+				EEE51D521DEEBFAE00555F57 /* LMDetailsList.m in Sources */,
+				EEE51D141DEEABC400555F57 /* AppDelegate.m in Sources */,
+				EEE51D611DEEDA1E00555F57 /* LMCollectionViewCell.m in Sources */,
+				EEE51D581DEEC07600555F57 /* LMScroller.m in Sources */,
+				EEE51D111DEEABC400555F57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D211DEEABC400555F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE51D2A1DEEABC400555F57 /* StudyFMDBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE51D2C1DEEABC400555F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE51D351DEEABC400555F57 /* StudyFMDBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE51D271DEEABC400555F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE51D0B1DEEABC400555F57 /* StudyFMDB */;
+			targetProxy = EEE51D261DEEABC400555F57 /* PBXContainerItemProxy */;
+		};
+		EEE51D321DEEABC400555F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE51D0B1DEEABC400555F57 /* StudyFMDB */;
+			targetProxy = EEE51D311DEEABC400555F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE51D1D1DEEABC400555F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE51D1E1DEEABC400555F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE51D371DEEABC400555F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE51D381DEEABC400555F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE51D3A1DEEABC400555F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906B4A5520D5F09C5A3AAFFC /* Pods-StudyFMDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = StudyFMDB/LM.pch;
+				INFOPLIST_FILE = StudyFMDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE51D3B1DEEABC400555F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A4420A73B12569D938390 /* Pods-StudyFMDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = StudyFMDB/LM.pch;
+				INFOPLIST_FILE = StudyFMDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEE51D3D1DEEABC400555F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StudyFMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyFMDB.app/StudyFMDB";
+			};
+			name = Debug;
+		};
+		EEE51D3E1DEEABC400555F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StudyFMDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyFMDB.app/StudyFMDB";
+			};
+			name = Release;
+		};
+		EEE51D401DEEABC400555F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StudyFMDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StudyFMDB;
+			};
+			name = Debug;
+		};
+		EEE51D411DEEABC400555F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StudyFMDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.StudyFMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StudyFMDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE51D071DEEABC400555F57 /* Build configuration list for PBXProject "StudyFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE51D371DEEABC400555F57 /* Debug */,
+				EEE51D381DEEABC400555F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE51D391DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE51D3A1DEEABC400555F57 /* Debug */,
+				EEE51D3B1DEEABC400555F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE51D3C1DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE51D3D1DEEABC400555F57 /* Debug */,
+				EEE51D3E1DEEABC400555F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE51D3F1DEEABC400555F57 /* Build configuration list for PBXNativeTarget "StudyFMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE51D401DEEABC400555F57 /* Debug */,
+				EEE51D411DEEABC400555F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE51D041DEEABC400555F57 /* Project object */;
+}

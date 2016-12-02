@@ -1,0 +1,39 @@
+//
+//  LM.pch
+//  StudyFMDB
+//
+//  Created by limin on 16/11/30.
+//  Copyright © 2016年 君安信（北京）科技有限公司. All rights reserved.
+//
+
+#ifndef LM_pch
+#define LM_pch
+
+#define kStatusHeight 20
+#define kNavHeight 64
+#define kListBarH 30
+#define kArrowW 40
+#define kAnimationTime 0.8
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define RGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define RGBColorAlpha(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define padding 20
+#define itemPerLine 4
+#define kItemW (kScreenW-padding*(itemPerLine+1))/itemPerLine
+#define kItemH 25
+
+#define topTitlesKey @"topTitlesKey"
+#define bottomTitlesKey @"bottomTitlesKey"
+typedef enum{
+    topViewClick = 0,
+    FromTopToTop = 1,
+    FromTopToTopLast = 2,
+    FromTopToBottomHead = 3,
+    FromBottomToTopLast = 4
+} animateType;
+
+#import "UIView+Extension.h"
+
+#endif /* LM_pch */
